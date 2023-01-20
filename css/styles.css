@@ -1,0 +1,16 @@
+ul,
+ol {
+    list-style: none;
+}
+
+.list {
+    list-style: none;
+
+}
+.link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}

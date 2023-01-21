@@ -14,3 +14,86 @@ ol {
 a {
     text-decoration: none;
 }
+
+.logotype {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+color: #4D5AE5;
+}
+
+
+.menu-link {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #4D5AE5
+}
+
+.email {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.email:hover,
+.email:focus {
+    color: #4D5AE5
+}
+
+.tel {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.tel:hover,
+.tel:focus {
+    color: #4D5AE5
+}
+
+.hero-titel {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /*color: #FFFFFF;*/
+}
+
+.modal-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+cursor: pointer;
+background-color: #4D5AE5;
+color: #FFFFFF;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}

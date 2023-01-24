@@ -1,6 +1,11 @@
+:root{
+    --accent-color: #4D5AE5;
+}
+
 ul,
 ol {
     list-style: none;
+    text-decoration: none;
 }
 
 .list {
@@ -15,19 +20,24 @@ a {
     text-decoration: none;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*======================= HEADER =======================*/
+
 .logotype {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 letter-spacing: 0.03em;
-color: #4D5AE5;
+color: var(--accent-color);
 }
 
 
-.menu-link {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
+.header-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -35,13 +45,12 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-    color: #4D5AE5
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
 }
 
 .email {
-font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -51,11 +60,10 @@ color: #2E2F42;
 
 .email:hover,
 .email:focus {
-    color: #4D5AE5
+    color: var(--accent-color);
 }
 
 .tel {
-font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -65,14 +73,16 @@ color: #434455;
 
 .tel:hover,
 .tel:focus {
-    color: #4D5AE5
+    color: var(--accent-color);
 }
 
+/*======================= /HEADER =======================*/
 
-/*HERO*/
+
+
+/*======================= HERO =======================*/
 
 .hero-titel {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -82,7 +92,6 @@ color: #434455;
 }
 
 .modal-btn {
-font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -91,7 +100,7 @@ align-items: center;
 letter-spacing: 0.04em;
 text-transform: uppercase;
 cursor: pointer;
-background-color: #4D5AE5;
+background-color: var(--accent-color);
 color: #FFFFFF;
 }
 
@@ -100,5 +109,134 @@ color: #FFFFFF;
     background-color: #404BBF;
     color: #FFFFFF;
 }
+/*======================= /HERO =======================*/
 
-/*FEATURE*/
+
+
+/*======================= FEATURE =======================*/
+
+.feature-subtitle{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+Color: #2E2F42;
+}
+
+.feature-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/*======================= /FEATURE =======================*/
+
+
+
+/*======================= WORK =======================*/
+.works-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.works-img{
+
+}
+/*======================= /WORK =======================*/
+
+
+
+/*======================== TEAM =======================*/
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.team-img{
+
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*======================= /TEAM =======================*/
+
+
+
+/*======================= FOOTER =======================*/
+.footer-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+/*======================= /FOOTER =======================*/
+
+
+
+/*======================= FILTER =======================*/
+.filter-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--accent-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+/*======================= /FILTER =======================*/
+
+
+
+/*======================= Project Card =======================*/
+.card-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*======================= /Project Card =======================*/

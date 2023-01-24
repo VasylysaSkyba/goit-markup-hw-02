@@ -68,6 +68,9 @@ color: #434455;
     color: #4D5AE5
 }
 
+
+/*HERO*/
+
 .hero-titel {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -97,3 +100,5 @@ color: #FFFFFF;
     background-color: #404BBF;
     color: #FFFFFF;
 }
+
+/*FEATURE*/
